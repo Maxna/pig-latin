@@ -40,6 +40,7 @@ _Feel free to email either or us at [juliajessicasher@gmail.com](mailto:juliajes
 | The program removes consonant before the first vowel and moves all of the first consecutive consonants to the end, and add "ay" | hello | ellohay |
 | The program treats "y" as a consonant for words beginning with "y" | your | ouryay |
 | The program will include "qu" only if it's a first consonants and will move the "u" along with the "q". | quit | itquay |
+| The program functions with spacing between words | bob cat | obbay atcay |
 | The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels. | 3 | 3 |
 
 

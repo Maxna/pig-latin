@@ -45,6 +45,7 @@
 
 //backend logic
 var arrayVowels = ['a', 'e', 'i', 'o', 'u'];
+var arrayConsonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z'];
 //
 // var pigLatin = function(userInput) {
 //   if (userInput === "") {
@@ -60,6 +61,16 @@ function pigLatin (userInput){
       return userInput + 'way';
     }
   }
+  for (var i = 0; i < arrayConsonants.length; i++) {
+    if (userInput === arrayConsonants[i] || (userInput[i] === arrayConsonants[i])) {
+      return userInput + 'ay';
+    }
+  }
+  var userInputArray = userInput.split(" "); {
+    return userInputArray;
+  }
+    // userInput.array[i].charAt[i];
+//     for (var i=0; i<userInputArray.length;i++)
 }
 
 
