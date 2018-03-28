@@ -31,8 +31,16 @@ _Feel free to email either or us at [juliajessicasher@gmail.com](mailto:juliajes
 ### Specs
 | Behavior | Input | Output |
 | :-------------     | :------------- | :------------- |
+| The program adds "way" to first word beginning with a vowel | a | away |
+| The program adds "way" to first word beginning with a vowel that follows a vowel. | aa | aaway |
+| The program adds "way" word beginning with a vowel following a consonant | aab | aabway |
+| The program adds "ay" to the first word beginning with a consonant | b | bay |
+| The program adds "ay" to the first word beginning with a consonant following a consonant | bb | bbay |
+| The program adds "ay" to the first word beginning with a consonant following a consonant and a vowel | bba | bbaay |
+| The program removes consonant before the first vowel and moves all of the first consecutive consonants to the end, and add "ay" | hello | ellohay |
+| The program treats "y" as a consonant for words beginning with "y" | your | ouryay |
+| The program will include "qu" only if it's a first consonants and will move the "u" along with the "q". | quit | itquay |
 | The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels. | 3 | 3 |
-| The program adds "ay" to single-letter words beginning with a vowel. | i | iay |
 
 
 ### License
